@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply overflow-hidden text-primary font-secondary bg-white;
+  }
+  .h1 {
+    @apply text-[54px] lg:text-[90px] font-primary font-bold  leading-[120%] tracking-[-0.05em] mb-2;
+  }
+  .h2 {
+    @apply text-[54px] lg:text-[90px] font-primary font-bold  leading-[120%] tracking-[-0.05em] mb-2;
+  }
+  .section {
+    @apply h-screen w-screen;
+  }
+  .btn {
+    @apply py-[18px] px-[50px] h-[66px] flex items-center justify-center text-base uppercase font-secondary font-bold bg-primary text-white;
+  }
+}
